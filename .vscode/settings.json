@@ -1,0 +1,4 @@
+{
+    "launchdarkly.project": "ld-react-demo",
+    "launchdarkly.env": "test"
+}
