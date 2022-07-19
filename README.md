@@ -14,7 +14,7 @@ export REACT_APP_LD_CLIENT_ID=<your client ID>
 
 ### Editing and building in Replit
 
-Using [Replit](https://www.replit.com) you can find a repl of this application under [@launchdarkly/flag-demo-app] 
+Using [Replit](https://www.replit.com) you can find a repl of this application under [@launchdarkly/LaunchDarkly Feature Flag Demo](https://replit.com/@LaunchDarkly/LaunchDarkly-Feature-Flag-Demo?v=1). Select `Fork Template` to run your own repl. 
 
 In Replit, you'll need to create a secret that uses the above environment variable to start your repl with the correct information. 
 
