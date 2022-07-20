@@ -4,12 +4,12 @@ This appalication is designed to use several feature flags to showcase the abili
 
 ## Running this application 
 
-This application can be deployed to many different providers, in order for it to run successfully you'll need to leverage an environment variable named `REACT_APP_LD_CLIENT_ID` with the **Client Side SDK** key from LaunchDarkly 
+This application can be deployed to many different providers, in order for it to run successfully you'll need to leverage an environment variable named `VITE_LD_CLIENT_ID` with the **Client Side SDK** key from LaunchDarkly 
 
 For example - 
 
 ```bash
-export REACT_APP_LD_CLIENT_ID=<your client ID>
+export VITE_LD_CLIENT_ID=<your client ID>
 ```
 
 ### Editing and building in Replit
