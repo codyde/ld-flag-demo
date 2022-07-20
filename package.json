@@ -4,6 +4,9 @@
   "main": "index.js",
   "description": "LaunchDarkly Flag Demo app using ReactJS and Vite bundler",
   "dependencies": {
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
     "@vitejs/plugin-legacy": "^2.0.0",
     "@vitejs/plugin-react": "^2.0.0",
     "launchdarkly-react-client-sdk": "^2.24.0",
@@ -20,6 +23,24 @@
   "scripts": {
     "start": "vite",
     "build": "vite build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
