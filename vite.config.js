@@ -15,22 +15,7 @@ export default defineConfig({
     react(),
     legacy(),
   ],
-  resolve: {
-    alias: {
-      src: resolve(__dirname, "src"),
-    },
-  },
-  esbuild: {
-    loader: "jsx",
-    include: /src\/.*\.jsx?$/,
-    exclude: [],
-  },
   define: {
     global: 'globalThis',
-  },
-  optimizeDeps: {
-    esbuildOptions: {
-      plugins: [],
-    },
   },
 });
