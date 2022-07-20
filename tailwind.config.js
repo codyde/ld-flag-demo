@@ -15,7 +15,7 @@ module.exports = {
         ldhl: '#EBFF38'
       },
       backgroundImage: {
-        'ldls': "url('../public/LightSpeed_bg.png')"
+        'ldls': "url('../LightSpeed_bg.png')"
       },
     },
   },
